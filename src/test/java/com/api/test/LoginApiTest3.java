@@ -21,6 +21,7 @@ public class LoginApiTest3 {
         System.out.println(response.asPrettyString());
         System.out.println(loginResponse.getToken());
         System.out.println(loginResponse.getEmail());
+        System.out.println(loginResponse.getUsername());
 
         Assert.assertTrue(loginResponse.getToken() != null);
         Assert.assertEquals(loginResponse.getEmail(), "amitprasad.sb2@gmail.com");
