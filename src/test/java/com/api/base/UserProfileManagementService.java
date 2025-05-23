@@ -5,7 +5,7 @@ import io.restassured.response.Response;
 
 public class UserProfileManagementService extends Basicservice{
 
-    private static final String BASE_PATH = "/api/users/";
+    private static final String BASE_PATH = "/api/users";
 
     public Response getProfile(String token){
         setAuthToken(token);
