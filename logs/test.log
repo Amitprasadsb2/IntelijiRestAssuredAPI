@@ -325,3 +325,549 @@ Accept=*/*
     <h1>HTTP Status 400 – Bad Request</h1>
   </body>
 </html>
+17:18:35.716 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+17:18:35.719 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+17:18:35.719 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+17:18:36.532 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+17:18:36.567 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAwOTE2LCJleHAiOjE3NDgwMDQ1MTZ9.iMQEoIBDgDSD8dCwddFbawQQ6ojllBMblw64G6WdTuE",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:30:22.060 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+17:30:22.064 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+17:30:22.064 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+17:30:22.863 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+17:30:22.908 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAxNjIyLCJleHAiOjE3NDgwMDUyMjJ9.A8OPUmhF03O9JORSo34ED7tZOoJxTrQxX-EjzCdjhpI",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:30:22.966 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+17:30:22.966 [main] INFO  com.api.filters.LoggingFilters - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAxNjIyLCJleHAiOjE3NDgwMDUyMjJ9.A8OPUmhF03O9JORSo34ED7tZOoJxTrQxX-EjzCdjhpI
+Accept=*/*
+17:30:22.966 [main] INFO  com.api.filters.LoggingFilters - Request Payload:null
+17:30:23.526 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+17:30:23.529 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "firstName": "Amit",
+    "lastName": "Prasad",
+    "mobileNumber": "7978628176"
+}
+17:33:09.237 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+17:33:09.241 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+17:33:09.241 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":null,"password":null,"email":null,"firstName":null,"lastName":null,"mobileNumber":null}
+17:33:10.036 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:500
+17:33:10.148 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "timestamp": "2025-05-23 12:03:09",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/auth/signup",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+17:54:44.134 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+17:54:44.137 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+17:54:44.137 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+17:54:44.817 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+17:54:44.974 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAzMDg0LCJleHAiOjE3NDgwMDY2ODR9.LemKx9WMmFEMmMgu4IaS54fSln-OZGC3s3IvRN26E0g",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:54:45.072 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+17:54:45.072 [main] INFO  com.api.filters.LoggingFilters - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAzMDg0LCJleHAiOjE3NDgwMDY2ODR9.LemKx9WMmFEMmMgu4IaS54fSln-OZGC3s3IvRN26E0g
+Accept=*/*
+17:54:45.072 [main] INFO  com.api.filters.LoggingFilters - Request Payload:null
+17:54:45.213 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+17:54:45.217 [main] INFO  com.api.filters.LoggingFilters - Response BODY:[
+    {
+        "accountNumber": "8001115171",
+        "accountType": "SAVINGS",
+        "balance": 2000.00,
+        "status": "ACTIVE",
+        "branch": "NORTH_BRANCH",
+        "createdAt": "2025-05-23T11:51:55.171743",
+        "ownerName": "Amit Prasad"
+    }
+]
+17:58:26.285 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+17:58:26.292 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+17:58:26.292 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+17:58:27.185 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+17:58:27.263 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAzMzA3LCJleHAiOjE3NDgwMDY5MDd9.gMDLZxr5-Jk7lxwTVhwBDvfDSTPcVsRt4V47rJnSQzE",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+17:58:27.329 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+17:58:27.330 [main] INFO  com.api.filters.LoggingFilters - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAzMzA3LCJleHAiOjE3NDgwMDY5MDd9.gMDLZxr5-Jk7lxwTVhwBDvfDSTPcVsRt4V47rJnSQzE
+Accept=*/*
+17:58:27.330 [main] INFO  com.api.filters.LoggingFilters - Request Payload:null
+17:58:27.643 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+17:58:27.644 [main] INFO  com.api.filters.LoggingFilters - Response BODY:[
+    {
+        "accountNumber": "8001115171",
+        "accountType": "SAVINGS",
+        "balance": 2000.00,
+        "status": "ACTIVE",
+        "branch": "NORTH_BRANCH",
+        "createdAt": "2025-05-23T11:51:55.171743",
+        "ownerName": "Amit Prasad"
+    }
+]
+18:03:06.545 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:03:06.549 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+18:03:06.549 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+18:03:07.234 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:03:07.336 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAzNTg3LCJleHAiOjE3NDgwMDcxODd9.rxDf8rySlbbt6pihxV6xHlhBOXCHwgBGDvAyJyg_yfI",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:03:07.396 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:03:07.396 [main] INFO  com.api.filters.LoggingFilters - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAzNTg3LCJleHAiOjE3NDgwMDcxODd9.rxDf8rySlbbt6pihxV6xHlhBOXCHwgBGDvAyJyg_yfI
+Accept=*/*
+18:03:07.396 [main] INFO  com.api.filters.LoggingFilters - Request Payload:null
+18:03:07.531 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:03:07.534 [main] INFO  com.api.filters.LoggingFilters - Response BODY:[
+    {
+        "accountNumber": "8001115171",
+        "accountType": "SAVINGS",
+        "balance": 2000.00,
+        "status": "ACTIVE",
+        "branch": "NORTH_BRANCH",
+        "createdAt": "2025-05-23T11:51:55.171743",
+        "ownerName": "Amit Prasad"
+    }
+]
+18:03:56.310 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:03:56.314 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+18:03:56.315 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+18:03:57.039 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:03:57.089 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAzNjM2LCJleHAiOjE3NDgwMDcyMzZ9.J_BebAbM_nH_k_jM7KakJd7sqrPLSEozjXTmtUpq7WU",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:03:57.142 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:03:57.143 [main] INFO  com.api.filters.LoggingFilters - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAzNjM2LCJleHAiOjE3NDgwMDcyMzZ9.J_BebAbM_nH_k_jM7KakJd7sqrPLSEozjXTmtUpq7WU
+Accept=*/*
+18:03:57.143 [main] INFO  com.api.filters.LoggingFilters - Request Payload:null
+18:03:57.281 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:03:57.285 [main] INFO  com.api.filters.LoggingFilters - Response BODY:[
+    {
+        "accountNumber": "8001115171",
+        "accountType": "SAVINGS",
+        "balance": 2000.00,
+        "status": "ACTIVE",
+        "branch": "NORTH_BRANCH",
+        "createdAt": "2025-05-23T11:51:55.171743",
+        "ownerName": "Amit Prasad"
+    }
+]
+18:06:12.114 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:06:12.118 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+18:06:12.118 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+18:06:12.811 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:06:12.874 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAzNzcyLCJleHAiOjE3NDgwMDczNzJ9.C7C2mmHQKtDkwe24GQZJNUTdRgU5raPhJ7IpDPjKeJc",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:06:12.957 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:06:12.957 [main] INFO  com.api.filters.LoggingFilters - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAzNzcyLCJleHAiOjE3NDgwMDczNzJ9.C7C2mmHQKtDkwe24GQZJNUTdRgU5raPhJ7IpDPjKeJc
+Accept=*/*
+18:06:12.957 [main] INFO  com.api.filters.LoggingFilters - Request Payload:null
+18:06:13.103 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:06:13.110 [main] INFO  com.api.filters.LoggingFilters - Response BODY:[
+    {
+        "accountNumber": "8001115171",
+        "accountType": "SAVINGS",
+        "balance": 2000.00,
+        "status": "ACTIVE",
+        "branch": "NORTH_BRANCH",
+        "createdAt": "2025-05-23T11:51:55.171743",
+        "ownerName": "Amit Prasad"
+    }
+]
+18:06:41.954 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:06:41.957 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+18:06:41.957 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+18:06:42.794 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:06:42.844 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAzODAyLCJleHAiOjE3NDgwMDc0MDJ9.5cQkWQtvZp41Ct4av8tSAAJE5epnIKsABdL-ify3xSE",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:06:42.898 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:06:42.898 [main] INFO  com.api.filters.LoggingFilters - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAzODAyLCJleHAiOjE3NDgwMDc0MDJ9.5cQkWQtvZp41Ct4av8tSAAJE5epnIKsABdL-ify3xSE
+Accept=*/*
+18:06:42.899 [main] INFO  com.api.filters.LoggingFilters - Request Payload:null
+18:06:43.060 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:06:43.062 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "firstName": "Amit",
+    "lastName": "Prasad",
+    "mobileNumber": "7978628176"
+}
+18:08:49.514 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:08:49.517 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+18:08:49.517 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+18:08:50.145 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:08:50.182 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAzOTMwLCJleHAiOjE3NDgwMDc1MzB9.Y2lrxZcD79e2yq8INn6SJxNRv6CNBkXkPAtWG7DhtZ4",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:08:50.245 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:08:50.246 [main] INFO  com.api.filters.LoggingFilters - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAzOTMwLCJleHAiOjE3NDgwMDc1MzB9.Y2lrxZcD79e2yq8INn6SJxNRv6CNBkXkPAtWG7DhtZ4
+Accept=*/*
+18:08:50.246 [main] INFO  com.api.filters.LoggingFilters - Request Payload:null
+18:08:50.375 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:08:50.380 [main] INFO  com.api.filters.LoggingFilters - Response BODY:[
+    {
+        "accountNumber": "8001115171",
+        "accountType": "SAVINGS",
+        "balance": 2000.00,
+        "status": "ACTIVE",
+        "branch": "NORTH_BRANCH",
+        "createdAt": "2025-05-23T11:51:55.171743",
+        "ownerName": "Amit Prasad"
+    }
+]
+18:09:57.047 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:09:57.051 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+18:09:57.051 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+18:09:57.686 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:09:57.772 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDAzOTk3LCJleHAiOjE3NDgwMDc1OTd9.5Kweq1v22h2rBhIIAu0QDiKBOg5iQW_eMXQ8tu14ITU",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:14:16.580 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:14:16.583 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+18:14:16.583 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+18:14:17.206 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:14:17.249 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDA0MjU3LCJleHAiOjE3NDgwMDc4NTd9.tV7A-j-MHcV0zB7QyWFLROQzTZ0w7zYcoRQxHqotCjw",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:14:17.301 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:14:17.301 [main] INFO  com.api.filters.LoggingFilters - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDA0MjU3LCJleHAiOjE3NDgwMDc4NTd9.tV7A-j-MHcV0zB7QyWFLROQzTZ0w7zYcoRQxHqotCjw
+Accept=*/*
+18:14:17.301 [main] INFO  com.api.filters.LoggingFilters - Request Payload:null
+18:14:17.434 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:14:17.437 [main] INFO  com.api.filters.LoggingFilters - Response BODY:[
+    {
+        "accountNumber": "8001115171",
+        "accountType": "SAVINGS",
+        "balance": 2000.00,
+        "status": "ACTIVE",
+        "branch": "NORTH_BRANCH",
+        "createdAt": "2025-05-23T11:51:55.171743",
+        "ownerName": "Amit Prasad"
+    }
+]
+18:23:37.508 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:23:37.512 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+18:23:37.513 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+18:23:38.138 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:23:38.179 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDA0ODE4LCJleHAiOjE3NDgwMDg0MTh9.LQmCDA-edgrxGbEkEgsqd75wh9-bwFsnHNOCRYCfKmA",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:23:38.235 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:23:38.235 [main] INFO  com.api.filters.LoggingFilters - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDA0ODE4LCJleHAiOjE3NDgwMDg0MTh9.LQmCDA-edgrxGbEkEgsqd75wh9-bwFsnHNOCRYCfKmA
+Accept=*/*
+18:23:38.235 [main] INFO  com.api.filters.LoggingFilters - Request Payload:null
+18:23:38.338 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:23:38.342 [main] INFO  com.api.filters.LoggingFilters - Response BODY:[
+    {
+        "accountNumber": "8001115171",
+        "accountType": "SAVINGS",
+        "balance": 2000.00,
+        "status": "ACTIVE",
+        "branch": "NORTH_BRANCH",
+        "createdAt": "2025-05-23T11:51:55.171743",
+        "ownerName": "Amit Prasad"
+    }
+]
+18:31:58.968 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:31:58.972 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+18:31:58.973 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+18:31:59.805 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:31:59.841 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDA1MzE5LCJleHAiOjE3NDgwMDg5MTl9.3xErHu3Y6udzrHr9GuRXpuTTtCSJDzzrdmyHQMtWzRM",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:31:59.897 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:31:59.898 [main] INFO  com.api.filters.LoggingFilters - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDA1MzE5LCJleHAiOjE3NDgwMDg5MTl9.3xErHu3Y6udzrHr9GuRXpuTTtCSJDzzrdmyHQMtWzRM
+Accept=*/*
+18:31:59.898 [main] INFO  com.api.filters.LoggingFilters - Request Payload:null
+18:32:00.044 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:32:00.045 [main] INFO  com.api.filters.LoggingFilters - Response BODY:[
+    {
+        "accountNumber": "8001115171",
+        "accountType": "SAVINGS",
+        "balance": 2000.00,
+        "status": "ACTIVE",
+        "branch": "NORTH_BRANCH",
+        "createdAt": "2025-05-23T11:51:55.171743",
+        "ownerName": "Amit Prasad"
+    }
+]
+18:32:27.656 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:32:27.663 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+18:32:27.663 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+18:32:28.503 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:32:28.548 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDA1MzQ4LCJleHAiOjE3NDgwMDg5NDh9.n5IZnIZ_BPVfjoXB1OvHWT1UV8iqL4bmYcVKszKenPA",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:33:32.080 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:33:32.080 [main] INFO  com.api.filters.LoggingFilters - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDA1MzQ4LCJleHAiOjE3NDgwMDg5NDh9.n5IZnIZ_BPVfjoXB1OvHWT1UV8iqL4bmYcVKszKenPA
+Accept=*/*
+18:33:32.080 [main] INFO  com.api.filters.LoggingFilters - Request Payload:null
+18:33:32.228 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:33:32.230 [main] INFO  com.api.filters.LoggingFilters - Response BODY:[
+    {
+        "accountNumber": "8001115171",
+        "accountType": "SAVINGS",
+        "balance": 2000.00,
+        "status": "ACTIVE",
+        "branch": "NORTH_BRANCH",
+        "createdAt": "2025-05-23T11:51:55.171743",
+        "ownerName": "Amit Prasad"
+    }
+]
+18:35:42.288 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:35:42.291 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+18:35:42.291 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+18:35:42.983 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:35:43.017 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDA1NTQyLCJleHAiOjE3NDgwMDkxNDJ9.jLIvqnjSbfGLn34PexLVziFpJvZKs3-JjRlAjZRAvfM",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:35:43.090 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:35:43.091 [main] INFO  com.api.filters.LoggingFilters - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDA1NTQyLCJleHAiOjE3NDgwMDkxNDJ9.jLIvqnjSbfGLn34PexLVziFpJvZKs3-JjRlAjZRAvfM
+Accept=*/*
+18:35:43.091 [main] INFO  com.api.filters.LoggingFilters - Request Payload:null
+18:35:43.217 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:35:43.219 [main] INFO  com.api.filters.LoggingFilters - Response BODY:[
+    {
+        "accountNumber": "8001115171",
+        "accountType": "SAVINGS",
+        "balance": 2000.00,
+        "status": "ACTIVE",
+        "branch": "NORTH_BRANCH",
+        "createdAt": "2025-05-23T11:51:55.171743",
+        "ownerName": "Amit Prasad"
+    }
+]
+18:37:35.477 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:37:35.481 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+18:37:35.481 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+18:37:36.084 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:37:36.132 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDA1NjU1LCJleHAiOjE3NDgwMDkyNTV9.4te5aarPxmcIL7W0NXnu-z950q1X5HX6aeIUSaF0FeY",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:37:36.197 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:37:36.197 [main] INFO  com.api.filters.LoggingFilters - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDA1NjU1LCJleHAiOjE3NDgwMDkyNTV9.4te5aarPxmcIL7W0NXnu-z950q1X5HX6aeIUSaF0FeY
+Accept=*/*
+18:37:36.197 [main] INFO  com.api.filters.LoggingFilters - Request Payload:null
+18:37:36.327 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:37:36.330 [main] INFO  com.api.filters.LoggingFilters - Response BODY:[
+    {
+        "accountNumber": "8001115171",
+        "accountType": "SAVINGS",
+        "balance": 2000.00,
+        "status": "ACTIVE",
+        "branch": "NORTH_BRANCH",
+        "createdAt": "2025-05-23T11:51:55.171743",
+        "ownerName": "Amit Prasad"
+    }
+]
+18:37:56.535 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:37:56.538 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+18:37:56.538 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+18:37:57.193 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:37:57.234 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDA1Njc3LCJleHAiOjE3NDgwMDkyNzd9.9S_iKdNkRrEkyxQmmkEEzUYhwozU0D-PvOIucRRaus4",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:37:57.287 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:37:57.287 [main] INFO  com.api.filters.LoggingFilters - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDA1Njc3LCJleHAiOjE3NDgwMDkyNzd9.9S_iKdNkRrEkyxQmmkEEzUYhwozU0D-PvOIucRRaus4
+Accept=*/*
+18:37:57.288 [main] INFO  com.api.filters.LoggingFilters - Request Payload:null
+18:37:57.419 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:37:57.421 [main] INFO  com.api.filters.LoggingFilters - Response BODY:[
+    {
+        "accountNumber": "8001115171",
+        "accountType": "SAVINGS",
+        "balance": 2000.00,
+        "status": "ACTIVE",
+        "branch": "NORTH_BRANCH",
+        "createdAt": "2025-05-23T11:51:55.171743",
+        "ownerName": "Amit Prasad"
+    }
+]
+18:55:01.444 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:55:01.447 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+18:55:01.447 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+18:55:02.215 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:55:02.264 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDA2NzAyLCJleHAiOjE3NDgwMTAzMDJ9.J8casLOofnGcEU34mEmV3MUK0PI3KzN8OpAt352VOUw",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:55:02.323 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:55:02.323 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+18:55:02.323 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+18:55:02.530 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:55:02.534 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDA2NzAyLCJleHAiOjE3NDgwMTAzMDJ9.J8casLOofnGcEU34mEmV3MUK0PI3KzN8OpAt352VOUw",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+18:55:02.557 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+18:55:02.557 [main] INFO  com.api.filters.LoggingFilters - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ4MDA2NzAyLCJleHAiOjE3NDgwMTAzMDJ9.J8casLOofnGcEU34mEmV3MUK0PI3KzN8OpAt352VOUw
+Accept=*/*
+18:55:02.558 [main] INFO  com.api.filters.LoggingFilters - Request Payload:null
+18:55:02.698 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+18:55:02.702 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "firstName": "Amit",
+    "lastName": "Prasad",
+    "mobileNumber": "7978628176"
+}
