@@ -325,3 +325,33 @@ Accept=*/*
     <h1>HTTP Status 400 – Bad Request</h1>
   </body>
 </html>
+16:30:17.718 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+16:30:17.723 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+16:30:17.723 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+16:30:18.505 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+16:30:18.625 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ3OTk4MDE4LCJleHAiOjE3NDgwMDE2MTh9.5OsFh2qXAgno4HZc7WX1eUnKUmgrbzm5VUCG8wcTkeE",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+16:31:23.879 [main] INFO  com.api.filters.LoggingFilters - BASE URL:http://64.227.160.186:8080
+16:31:23.885 [main] INFO  com.api.filters.LoggingFilters - Request Header:Accept=*/*
+Content-Type=application/json
+16:31:23.885 [main] INFO  com.api.filters.LoggingFilters - Request Payload:{"username":"amitprasad","password":"Amit@12345"}
+16:31:24.684 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+16:31:24.808 [main] INFO  com.api.filters.LoggingFilters - Response BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWl0cHJhc2FkIiwiaWF0IjoxNzQ3OTk4MDg0LCJleHAiOjE3NDgwMDE2ODR9.f5Dq9F5l6Ze0gx5hHn2dTmuw77zYl-tR9GZ2RxDrP1Q",
+    "type": "Bearer",
+    "id": 1295,
+    "username": "amitprasad",
+    "email": "amitprasad.sb2@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
