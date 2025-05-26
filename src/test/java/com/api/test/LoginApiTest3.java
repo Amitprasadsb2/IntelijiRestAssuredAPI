@@ -13,7 +13,7 @@ public class LoginApiTest3 {
 
     @Test(description = "Verify if Login API working")
     public void logintest(){
-        LoginRequest loginRequest = new LoginRequest("Amit@12345","amitprasad");
+        LoginRequest loginRequest = new LoginRequest("amitprasad22","Amit@12345");
         AuthService authService = new AuthService();
         Response response = authService.login(loginRequest);
 
