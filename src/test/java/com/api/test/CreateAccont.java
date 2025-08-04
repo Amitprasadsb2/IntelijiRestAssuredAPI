@@ -20,6 +20,8 @@ public class CreateAccont {
                 .mobileNumber("3282425235")
                 .build();
 
+        //Just add test
+
         AuthService authService = new AuthService();
         Response response = authService.signup(signUpRequest);
         System.out.println(response.asPrettyString());
