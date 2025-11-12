@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "4f5ba374-297c-4667-9263-61e67022eccb",
+		"name": "sdsd",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "16366667-4f5ba374-297c-4667-9263-61e67022eccb"
+	},
+	"item": [
+		{
+			"name": "sddsdssdsdd",
+			"id": "8c84de0c-cdff-4f51-a41f-37169a76a644",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "sddsdssdsdd",
+					"host": [
+						"sddsdssdsdd"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
