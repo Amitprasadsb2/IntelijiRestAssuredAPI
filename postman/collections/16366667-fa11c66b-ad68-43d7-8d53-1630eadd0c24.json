@@ -185,7 +185,7 @@
 							"        \"last_name\": \"string\",",
 							"        \"avatar\": \"string\"}",
 							"    }",
-							"    pm.expect(tv4.validate(response, schema)).to.be.true;",
+							"    pm.expect(validate(response, schema)).to.be.true;",
 							"})"
 						],
 						"type": "text/javascript",
